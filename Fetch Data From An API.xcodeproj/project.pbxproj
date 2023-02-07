@@ -13,6 +13,8 @@
 		EFDFD97C299212110068E76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDFD97A299212110068E76F /* Main.storyboard */; };
 		EFDFD97E299212130068E76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFD97D299212130068E76F /* Assets.xcassets */; };
 		EFDFD981299212130068E76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDFD97F299212130068E76F /* LaunchScreen.storyboard */; };
+		EFDFD989299213880068E76F /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFD988299213880068E76F /* TodoModel.swift */; };
+		EFDFD98B2992169C0068E76F /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFD98A2992169C0068E76F /* TodoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EFDFD97D299212130068E76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDFD980299212130068E76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDFD982299212130068E76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDFD988299213880068E76F /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		EFDFD98A2992169C0068E76F /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				EFDFD976299212110068E76F /* SceneDelegate.swift */,
 				EFDFD978299212110068E76F /* ViewController.swift */,
 				EFDFD97A299212110068E76F /* Main.storyboard */,
+				EFDFD98A2992169C0068E76F /* TodoTableViewCell.swift */,
 				EFDFD97D299212130068E76F /* Assets.xcassets */,
 				EFDFD97F299212130068E76F /* LaunchScreen.storyboard */,
 				EFDFD982299212130068E76F /* Info.plist */,
+				EFDFD988299213880068E76F /* TodoModel.swift */,
 			);
 			path = "Fetch Data From An API";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDFD979299212110068E76F /* ViewController.swift in Sources */,
+				EFDFD989299213880068E76F /* TodoModel.swift in Sources */,
 				EFDFD975299212110068E76F /* AppDelegate.swift in Sources */,
+				EFDFD98B2992169C0068E76F /* TodoTableViewCell.swift in Sources */,
 				EFDFD977299212110068E76F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
